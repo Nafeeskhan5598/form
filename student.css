@@ -1,0 +1,44 @@
+body{
+    background: rgb(0, 0, 0);
+    background-image: url(clematis-4247203.jpg);
+}
+#data{
+    height: auto;
+  width: 226px;
+  background: rgb(38, 34, 34);
+  padding-left: 25px;
+  opacity: 1;
+  color: wheat;
+  border-radius: 17px;
+  margin-left: 323px;
+}
+
+#btn{
+    width: 196px;
+}
+.doc{
+    width: 188px;
+}
+#btn3{
+    margin-left: 71px;
+  
+}
+
+.login-form #pass-error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #C62828;
+    background: rgba(255, 0, 0,0.1 );
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+
+}
+#image{
+    width: 16px;
+margin: -241px 13px 99px 521px;
+}
+

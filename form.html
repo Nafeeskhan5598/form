@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/student.css">
+    <title>Document form</title>
+</head>
+
+<body> 
+ 
+    
+    <div id="data">
+        <h1>Login Here</h1>
+
+        <form class="login-form" action=""  name="form" onsubmit="return validated()">
+            <label for="">Email:
+                <br>
+            </label><input type="text" id='emails' name="email" class="doc" placeholder="name@.com" 
+            autocomplete="off">
+            <div id="emailids"></div>
+        
+            <br>
+            <label for="">Password:
+                <br>
+            </label><input type="Password" id='password' class="doc"  placeholder="password">
+            <div id="pass_error"></div>
+            <!-- <div id="pass_error">Please fill up password</div> -->
+            <br><br>
+
+
+            <input type="submit" id="btn" value="Log in"></button>
+            <br><br>
+        
+        </form>
+    </div>
+<!-- <div id="image" img src="password-hidding.jpg" alt="image"> -->
+   </div>
+       
+    
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>
